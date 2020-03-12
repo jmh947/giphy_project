@@ -47,14 +47,18 @@ function showbuttons(){
 
 showbuttons()
 
-
-
+//Create text box to input new buttons
+$("#newTopic").enterKey(function() {   //needs a new event that works with enter just havent found one
+    var newTopic = $(this).text()
+    console.log("topic:", newTopic)
+    animals.push(newTopic)
+});
 // onclick add new  animal
 // get info from the form 
 // this is a test
-var newTopic = "lion"
-animals.push(newTopic)
-showbuttons()
+//var newTopic = "zebra"
+//animals.push(newTopic)
+//showbuttons()
 
 
 
@@ -65,6 +69,15 @@ showbuttons()
 
 //  form add more topics (buttons)
 // html a input form to get the info
+var animation = function (){
+    $("#gif").on("click").function= $("#gif").pause()
+    $("#gif").pause() 
+ console.log(this);
+};
+
+
+
+
 // submit get the info
 // push the new topi into the animals array
 // show the buttons 

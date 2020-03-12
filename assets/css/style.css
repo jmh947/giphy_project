@@ -1,0 +1,13 @@
+h1 {
+    color: rgb(167, 29, 167);
+    text-emphasis-style: double-circle;
+}
+
+#newTopic {
+    float: right;
+    
+}
+
+h5 {
+    text-align: center;
+}
